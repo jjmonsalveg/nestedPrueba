@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @devise.password %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @devise.email %>
+</p>
+
+<p>
+  <strong>Put:</strong>
+  <%= @devise.put %>
+</p>
+
+<%= link_to 'Edit', edit_devise_path(@devise) %> |
+<%= link_to 'Back', devises_path %>

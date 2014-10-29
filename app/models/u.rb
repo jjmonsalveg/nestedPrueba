@@ -12,4 +12,7 @@
 
 class U < ActiveRecord::Base
   belongs_to :put
+  validates :cargo , presence: { message: 'es requerido'}
+  validates :apodo , presence: { message: 'es requerido'}
+
 end

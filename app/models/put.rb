@@ -11,4 +11,8 @@
 
 class Put < ActiveRecord::Base
   has_one :u
+  accepts_nested_attributes_for :u
+  # validates_associated :put
+  validates :nombre , presence: { message: 'es requerido'}
+  validates :apellido ,  presence: { message: 'es requerido'}
 end
