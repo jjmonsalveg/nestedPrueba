@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3254699422">
+    <data-source source="LOCAL" name="Rails nestedPrueba: development" uuid="e1760468-7480-4c68-b09a-a632ba453ad8">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/nestedPrueba_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfcb</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails nestedPrueba: test" uuid="d5df7b7c-7366-44bc-8586-d0c0eccbff82">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:nestedPrueba_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails nestedPrueba: production" uuid="2f55100c-6997-4ecc-b6c9-f4e729c31c1a">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:nestedPrueba_production</jdbc-url>
+      <user-name>nestedPrueba</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe4dfefdff9dffedfefdfeedffadff8dfffdfefdfe8dfebdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
